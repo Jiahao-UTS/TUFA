@@ -8,7 +8,7 @@ import os
 
 _C = CN()
 _C.GPUS = (0, )
-_C.WORKERS = 0
+_C.WORKERS = 16
 _C.PIN_MEMORY = True
 
 _C.DATASET = CN()
